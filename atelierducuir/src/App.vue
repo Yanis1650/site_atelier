@@ -7,8 +7,8 @@
 </template>
 
 <script>
-import AppNavbar from "./components/Navbar.vue";
-import AppFooter from "./components/Footer.vue";
+import AppNavbar from "./components/AppNavbar.vue";
+import AppFooter from "./components/AppFooter.vue";
 
 export default {
   name: "App",
@@ -20,6 +20,8 @@ export default {
 </script>
 
 
-<style>
-@import "./assets/styles/main.css";
+
+<style lang="scss">
+@import "./assets/styles/main.scss";
 </style>
+

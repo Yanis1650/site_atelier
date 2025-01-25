@@ -1,0 +1,18 @@
+// Couleurs principales
+$primary-color: #333;
+$secondary-color: #f4f4f4;
+$accent-color: #e67e22;
+
+// Typographie
+$font-family: 'Arial, sans-serif';
+$base-font-size: 16px;
+
+// Breakpoints
+$breakpoint-mobile: 768px;
+
+// Mixins
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
