@@ -5,10 +5,10 @@ import About from "../views/About.vue";
 import Contact from "../views/Contact.vue";
 
 const routes = [
-  { path: "/", component: Home },
-  { path: "/products", component: Products },
-  { path: "/about", component: About },
-  { path: "/contact", component: Contact },
+  { path: "/", name: "Home", component: Home },
+  { path: "/products", name: "Products", component: Products },
+  { path: "/about", name: "About", component: About },
+  { path: "/contact", name: "Contact", component: Contact },
 ];
 
 const router = createRouter({
